@@ -1,0 +1,19 @@
+Package: meteoDatos
+Title: Herramientas para Analizar Datos Meteorologicos
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Sofia", "Pijoan",
+           email = "sofiapijoan17@gmail.com",
+           role = c("aut", "cre")),
+    person("Mia", "Siriani",
+           role = "aut")
+    )
+Description: Paquete desarrollado para practicar el analisis
+    de datos meteorologicos mediante funciones creadas en R.
+    Permite organizar y procesar informacion de estaciones
+    meteorologicas.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
