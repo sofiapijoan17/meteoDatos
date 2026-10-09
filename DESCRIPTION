@@ -19,3 +19,6 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/sofiapijoan17/meteoDatos
 BugReports: https://github.com/sofiapijoan17/meteoDatos/issues
+Depends: 
+    R (>= 3.5)
+LazyData: true
