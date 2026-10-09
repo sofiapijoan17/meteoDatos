@@ -1,0 +1,12 @@
+
+suma <- function(x = 0, y = 0) {
+  if (!is.numeric(x) || !is.numeric(y)) {
+    stop("Los argumentos deben ser numericos")
+  }
+
+  if (x < 0 || y < 0) {
+    return("No puedo sumar negativos")
+  }
+
+  x + y
+}
