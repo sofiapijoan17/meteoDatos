@@ -1,17 +1,17 @@
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # meteoDatos
 
-Paquete de R desarrollado por Sofia Pijoan y Mia Siriani
-para la materia Programacion II.
+Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia
+Programacion II.
 
 ## Descripcion
 
-meteoDatos es un paquete creado para practicar el
-desarrollo de funciones en R y el trabajo colaborativo
-mediante Git y GitHub.
+meteoDatos es un paquete creado para practicar el desarrollo de
+funciones en R y el trabajo colaborativo mediante Git y GitHub.
 
-El proyecto esta orientado al analisis de datos
-meteorologicos.
+El proyecto esta orientado al analisis de datos meteorologicos.
 
 ## Autoras
 
@@ -22,7 +22,7 @@ meteorologicos.
 
 Para instalar el paquete desde GitHub:
 
-```r
+``` r
 install.packages("pak")
 pak::pak("sofiapijoan17/meteoDatos")
 ```
@@ -37,17 +37,26 @@ La funcion suma() permite sumar dos numeros.
 - Comprueba que los argumentos sean numericos.
 - No permite sumar numeros negativos.
 
-## Ejemplos de uso
+## Ejemplo de uso de suma()
 
-```r
-library(meteoDatos)
+La función `suma()` permite sumar dos números no negativos.
 
-suma(3, 4)
-# Resultado: 7
-
+``` r
+suma(3, 5)
+#> [1] 8
 suma()
-# Resultado: 0
+#> [1] 0
+```
 
-suma(-2, 5)
-# Resultado: "No puedo sumar negativos"
+## Ejemplo de uso de promedio_temperaturas()
+
+La función `promedio_temperaturas()` calcula el promedio de dos
+temperaturas. Sirve para obtener una temperatura media a partir de dos
+mediciones.
+
+``` r
+promedio_temperaturas(20, 30)
+#> [1] 25
+promedio_temperaturas(18, 24)
+#> [1] 21
 ```
