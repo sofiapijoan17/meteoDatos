@@ -52,3 +52,19 @@ promedio_temperaturas(20, 30)
 promedio_temperaturas(18, 24)
 #> [1] 21
 ```
+
+### Funcion Resumen_temperaturas()
+
+La funcion
+[`resumen_temperaturas()`](https://sofiapijoan17.github.io/meteoDatos/reference/resumen_temperaturas.md)
+calcula la temperatura minima, maxima y media de un conjunto de
+mediciones.
+
+#### Ejemplos de uso
+
+``` r
+
+meteoDatos::resumen_temperaturas(c(18, 22, 25, 20))
+#>   minima maxima media
+#> 1     18     25 21.25
+```

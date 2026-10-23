@@ -1,7 +1,5 @@
 # meteoDatos
 
-# meteoDatos
-
 [![R-CMD-check](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -12,9 +10,12 @@ coverage target:
 R](https://img.shields.io/badge/package-R-276DC3.svg)![Tests:
 testthat](https://img.shields.io/badge/tests-testthat-green.svg)
 
-![Logo de meteoDatos](reference/figures/logo.svg) Paquete de R
-desarrollado por Sofia Pijoan y Mia Siriani para la materia Programacion
-II.
+![Logo de meteoDatos](reference/figures/logo.svg)
+
+Logo de meteoDatos
+
+Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia
+Programacion II.
 
 ## Descripcion
 
@@ -83,6 +84,8 @@ promedio_temperaturas(18, 24)
 
 - [`promedio_temperaturas()`](https://sofiapijoan17.github.io/meteoDatos/reference/promedio_temperaturas.md)
   : Calcular el promedio de dos temperaturas
+- [`resumen_temperaturas()`](https://sofiapijoan17.github.io/meteoDatos/reference/resumen_temperaturas.md)
+  : Resumir temperaturas meteorologicas
 - [`suma()`](https://sofiapijoan17.github.io/meteoDatos/reference/suma.md)
   : Sumar dos numeros
 - [`temperaturas`](https://sofiapijoan17.github.io/meteoDatos/reference/temperaturas.md)
