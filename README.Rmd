@@ -19,17 +19,15 @@ pkgload::load_all(".")
 
 # meteoDatos
 
-Paquete de R desarrollado por Sofia Pijoan y Mia Siriani
-para la materia Programacion II.
+![Logo de meteoDatos](man/figures/logo.svg)
+
+Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia Programacion II.
 
 ## Descripcion
 
-meteoDatos es un paquete creado para practicar el
-desarrollo de funciones en R y el trabajo colaborativo
-mediante Git y GitHub.
+meteoDatos es un paquete creado para practicar el desarrollo de funciones en R y el trabajo colaborativo mediante Git y GitHub.
 
-El proyecto esta orientado al analisis de datos
-meteorologicos.
+El proyecto esta orientado al analisis de datos meteorologicos.
 
 ## Autoras
 
