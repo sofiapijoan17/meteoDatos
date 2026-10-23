@@ -12,8 +12,7 @@ Description: Paquete desarrollado para practicar el analisis
     de datos meteorologicos mediante funciones creadas en R.
     Permite organizar y procesar informacion de estaciones
     meteorologicas.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -24,5 +23,7 @@ Depends:
 LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
