@@ -1,17 +1,15 @@
-
-# Resumir temperaturas meteorologicas
-
-# Calcula la temperatura minima, maxima y media de un conjunto
-# de mediciones meteorologicas.
-
-#' @param temperaturas Vector numerico con las temperaturas registradas.
-
-#' @return Un data.frame con la temperatura minima, maxima y media.
-
-#' @examples
-# resumen_temperaturas(c(18, 22, 25, 20))
+#' Resumir temperaturas meteorologicas
 #'
+#' Calcula la temperatura minima, maxima y media de un conjunto
+#' de mediciones meteorologicas.
+#'
+#' @param temperaturas Vector numerico con las temperaturas registradas.
+#'
+#' @return Un data.frame con la temperatura minima, maxima y media.
 #' @export
+#'
+#' @examples
+#' resumen_temperaturas(c(18, 22, 25, 20))
 resumen_temperaturas <- function(temperaturas) {
 
   if (!is.numeric(temperaturas)) {
