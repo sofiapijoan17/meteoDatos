@@ -3,6 +3,11 @@
 
 # meteoDatos
 
+<figure>
+<img src="man/figures/logo.svg" alt="Logo de meteoDatos" />
+<figcaption aria-hidden="true">Logo de meteoDatos</figcaption>
+</figure>
+
 Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia
 Programacion II.
 
