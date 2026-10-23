@@ -3,10 +3,14 @@
 
 # meteoDatos
 
-<figure>
-<img src="man/figures/logo.svg" alt="Logo de meteoDatos" />
-<figcaption aria-hidden="true">Logo de meteoDatos</figcaption>
-</figure>
+[![R-CMD-check](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
+![Test coverage target: 75%](https://img.shields.io/badge/coverage%20target-75%25-blue.svg)
+![Package: R](https://img.shields.io/badge/package-R-276DC3.svg)
+![Tests: testthat](https://img.shields.io/badge/tests-testthat-green.svg)
+
+![Logo de meteoDatos](man/figures/logo.svg)
 
 Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia
 Programacion II.
