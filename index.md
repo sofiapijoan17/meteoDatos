@@ -72,3 +72,20 @@ promedio_temperaturas(18, 24)
 
 Si querés colaborar con el proyecto, podés consultar nuestra [guía de
 contribución](https://sofiapijoan17.github.io/meteoDatos/CONTRIBUTING.md).
+
+## Ejemplo de uso de resumen_temperaturas()
+
+La función
+[`resumen_temperaturas()`](https://sofiapijoan17.github.io/meteoDatos/reference/resumen_temperaturas.md)
+permite obtener la temperatura mínima, máxima y media de un conjunto de
+mediciones.
+
+``` r
+
+resumen_temperaturas(c(20, 25, 30, 15))
+#>   minima maxima media
+#> 1     15     30  22.5
+resumen_temperaturas(c(18, 22, 26))
+#>   minima maxima media
+#> 1     18     26    22
+```
