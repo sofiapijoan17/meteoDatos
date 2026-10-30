@@ -48,3 +48,13 @@ La función `promedio_temperaturas()` calcula el promedio de dos temperaturas nu
 promedio_temperaturas(20, 30)
 promedio_temperaturas(18, 24)
 ```
+
+## Funcion Resumen_temperaturas()
+
+La funcion `resumen_temperaturas()` calcula la temperatura minima,
+maxima y media de un conjunto de mediciones.
+
+### Ejemplos de uso
+```{r}
+meteoDatos::resumen_temperaturas(c(18, 22, 25, 20))
+```

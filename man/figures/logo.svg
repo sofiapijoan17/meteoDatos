@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="160" viewBox="0 0 220 160">
+  <rect width="220" height="160" rx="18" fill="#EAF5FB"/>
+  <circle cx="110" cy="48" r="22" fill="#F4C95D"/>
+  <path d="M55 78 C55 65 66 57 79 61 C84 43 108 42 118 59 C137 52 154 65 151 80 Z" fill="#FFFFFF" stroke="#6B9BB8" stroke-width="3"/>
+  <path d="M75 96 L67 110 M110 96 L102 110 M145 96 L137 110" stroke="#3998C5" stroke-width="5" stroke-linecap="round"/>
+  <text x="110" y="137" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#24516B">meteoDatos</text>
+</svg>

@@ -6,6 +6,7 @@ Authors@R: c(
            email = "sofiapijoan17@gmail.com",
            role = c("aut", "cre")),
     person("Mia", "Siriani",
+           email = "miasirianii@gmail.com",
            role = "aut")
     )
 Description: Paquete desarrollado para practicar el analisis

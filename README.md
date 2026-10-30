@@ -1,15 +1,30 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # meteoDatos
 
-Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia
-Programacion II.
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sofiapijoan17/meteoDatos/actions/workflows/R-CMD-check.yaml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![Codecov test coverage](https://img.shields.io/codecov/c/github/sofiapijoan17/meteoDatos)](https://app.codecov.io/gh/sofiapijoan17/meteoDatos) [![testthat](https://img.shields.io/badge/testthat-3.0.0-green.svg)](https://testthat.r-lib.org)
+
+<!-- badges: end -->
+
+<figure>
+
+<img src="man/figures/logo.svg" alt="Logo de meteoDatos"/>
+
+<figcaption aria-hidden="true">
+
+Logo de meteoDatos
+
+</figcaption>
+
+</figure>
+
+Paquete de R desarrollado por Sofia Pijoan y Mia Siriani para la materia Programacion II.
 
 ## Descripcion
 
-meteoDatos es un paquete creado para practicar el desarrollo de
-funciones en R y el trabajo colaborativo mediante Git y GitHub.
+meteoDatos es un paquete creado para practicar el desarrollo de funciones en R y el trabajo colaborativo mediante Git y GitHub.
 
 El proyecto esta orientado al analisis de datos meteorologicos.
 
@@ -50,9 +65,7 @@ suma()
 
 ## Ejemplo de uso de promedio_temperaturas()
 
-La función `promedio_temperaturas()` calcula el promedio de dos
-temperaturas. Sirve para obtener una temperatura media a partir de dos
-mediciones.
+La función `promedio_temperaturas()` calcula el promedio de dos temperaturas. Sirve para obtener una temperatura media a partir de dos mediciones.
 
 ``` r
 promedio_temperaturas(20, 30)
@@ -60,3 +73,7 @@ promedio_temperaturas(20, 30)
 promedio_temperaturas(18, 24)
 #> [1] 21
 ```
+
+## Guía de contribución
+
+Si querés colaborar con el proyecto, podés consultar nuestra [guía de contribución](CONTRIBUTING.md).
