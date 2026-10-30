@@ -67,3 +67,8 @@ promedio_temperaturas(20, 30)
 promedio_temperaturas(18, 24)
 #> [1] 21
 ```
+
+## Guía de contribución
+
+Si querés colaborar con el proyecto, podés consultar nuestra [guía de
+contribución](https://sofiapijoan17.github.io/meteoDatos/CONTRIBUTING.md).
