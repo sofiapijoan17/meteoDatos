@@ -5,4 +5,7 @@
 #'
 #' @format Vector numerico con 5 valores.
 #' @source Datos ficticios creados para Programacion II.
+#' @examples
+#' data("temperaturas")
+#' temperaturas
 "temperaturas"

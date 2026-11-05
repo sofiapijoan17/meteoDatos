@@ -17,4 +17,8 @@ temperaturas
 Conjunto de cinco temperaturas utilizado para
 practicar el manejo de datos en el paquete meteoDatos.
 }
+\examples{
+data("temperaturas")
+temperaturas
+}
 \keyword{datasets}
