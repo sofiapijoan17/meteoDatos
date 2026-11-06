@@ -13,5 +13,12 @@
 #' promedio_temperaturas(20, 30)
 
 promedio_temperaturas <- function(temp1, temp2) {
+  if (!is.numeric(temp1) || !is.numeric(temp2)) {
+    stop("Ambas temperaturas deben ser valores numéricos.")
+  }
+
+  if (!is.finite(temp1) || !is.finite(temp2)) {
+    stop("Las temperaturas deben ser valores finitos.")
+  }
   (temp1 + temp2) / 2
 }
